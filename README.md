@@ -18,8 +18,14 @@ Aim 1: To educate users on violence prevention, including what is reproductive c
 Aim 2: To create an interactive and gamified experience using low-pressure quizzes related the following topics: 
 
 (1) Healthy Relationships vs. Unhealthy Relationships 
+
+
 (2) Intimate Partner Violence 
+
+
 (3) Pregnancy Coercion 
+
+
 (4) Birth Control Sabotage 
 
 
