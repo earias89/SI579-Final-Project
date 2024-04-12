@@ -20,31 +20,49 @@ Aim 2: To create an interactive and gamified experience using low-pressure quizz
 (2) Intimate Partner Violence 
 (3) Pregnancy Coercion 
 (4) Birth Control Sabotage 
+
+
   • When users click on one of these options, the page updates with a new question and choice options. 
+
+  
   • Each choice option is represented with a button, so when users click on any choice, the page content will update to 
     show whether the user answered correctly or incorrectly. 
+
+    
   • Using setInterval, a timer was added at the bottom of the question space. o setInterval was used to include a low 
     pressure timer that counts to 10 seconds and then stops with an encouraging message for users to continue at their 
     own pace.
+    
 
 Section B:
 
 Aim 3: To depict an example of reproductive coercion. 
 
+
   • Reproductive coercion is a specific type of intimate partner violence, and poses social and health risks at the 
     individual, community, and structural levels. 
+
+    
   • Many do not know how to recognize instances of this in their own relationships or in the relationships of loved 
     ones. 
+
+    
   • When users click on the scenario button, an image of a persona is fetched so that users are able to read through a 
     (fictional) experience that depicts an example of reproductive coercion. o This section relies on class topics 
     related to fetching data and asynchronous functions.
+
+    
 
 Section C: Aim 4: To provide users with community resources and support. 
 
   • When users hover over each resource listed, more information about the specific resource like the website link 
     and/or contact number becomes visible.
+    
 
 Additional Feature Added: Aim 5: To create a personalized interactive experience for users.
 
+
   • When users input their name inside of the input box at the top of the page, a personalized welcome message appears, 
     and the user’s name is stored in local storage.
+
+    
