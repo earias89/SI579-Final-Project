@@ -63,7 +63,10 @@ Aim 4: To provide users with community resources and support.
     and/or contact number becomes visible.
     
 
-Additional Feature Added: Aim 5: To create a personalized interactive experience for users.
+Additional Feature Added: 
+
+
+Aim 5: To create a personalized interactive experience for users.
 
 
   • When users input their name inside of the input box at the top of the page, a personalized welcome message appears, 
