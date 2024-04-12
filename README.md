@@ -10,6 +10,7 @@ Core Functionality: This application uses core concepts used in my SI579 class o
 
 Features:
 
+
 Section A:
 
 Aim 1: To educate users on violence prevention, including what is reproductive coercion. 
@@ -36,6 +37,7 @@ Aim 2: To create an interactive and gamified experience using low-pressure quizz
 
 Section B:
 
+
 Aim 3: To depict an example of reproductive coercion. 
 
 
@@ -53,7 +55,9 @@ Aim 3: To depict an example of reproductive coercion.
 
     
 
-Section C: Aim 4: To provide users with community resources and support. 
+Section C: 
+
+Aim 4: To provide users with community resources and support. 
 
   • When users hover over each resource listed, more information about the specific resource like the website link 
     and/or contact number becomes visible.
