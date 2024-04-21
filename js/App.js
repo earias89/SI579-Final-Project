@@ -349,7 +349,7 @@ function updateTimer() {
 
 // Start the timer
 function startTimer() {
-    intervalId = setInterval(updateTimer, 1000); 
+    intervalId = setInterval(updateTimer, 2000); 
 }
 startTimer();
 
