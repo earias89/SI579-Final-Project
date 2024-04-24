@@ -353,21 +353,36 @@ function startTimer() {
 }
 startTimer();
 
-
-// Resource box hover effect - Section C
 document.querySelectorAll('.resource-box').forEach(box => {
     box.addEventListener('mouseover', () => {
-      const infoId = box.getAttribute('data-info');
-      const info = document.getElementById(infoId);
-      info.style.display = 'block';
+        showInfo(box);
     });
-  
+
     box.addEventListener('mouseout', () => {
-      const infoId = box.getAttribute('data-info');
-      const info = document.getElementById(infoId);
-      info.style.display = 'none';
+        hideInfo(box);
     });
-  });
+
+    box.addEventListener('focus', () => {
+        showInfo(box);
+    });
+
+    box.addEventListener('blur', () => {
+        hideInfo(box);
+    });
+
+    // Helper functions to show and hide info boxes
+    function showInfo(element) {
+        const infoId = element.getAttribute('data-info');
+        const info = document.getElementById(infoId);
+        info.style.display = 'block';
+    }
+
+    function hideInfo(element) {
+        const infoId = element.getAttribute('data-info');
+        const info = document.getElementById(infoId);
+        info.style.display = 'none';
+    }
+});
 
 // Local Storage Implementation - top page greeting 
   const nameInput = document.getElementById('nameInput');
